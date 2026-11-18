@@ -29,15 +29,26 @@ The dataset contains information about patients, appointment dates, medical cond
 
 ### Day 1 – Data Loading and Initial Inspection
 
-Completed tasks:
+- Imported Pandas.
+- Loaded the dataset.
+- Explored data using head(), tail(), info(), describe(), and shape.
+- Checked missing values.
+- Checked duplicate records.
 
-- Imported Pandas library.
-- Loaded the dataset using Pandas.
-- Explored the dataset using:
-  - `head()`
-  - `tail()`
-  - `info()`
-  - `describe()`
-  - `shape`
-- Checked missing values using `isnull().sum()`.
-- Checked duplicate records using `duplic
+### Day 2 – Unique Value Analysis and Data Exploration
+
+- Checked unique values across dataset columns.
+- Identified categorical and binary features.
+- Explored the target variable (No-show).
+- Analyzed Age using minimum, maximum, and mean.
+- Identified a negative age value for further investigation.
+
+### Upcoming Tasks
+
+- Investigate invalid age values.
+- Complete data quality checks.
+- Exploratory Data Analysis (EDA).
+- Data preprocessing.
+- Machine Learning model development.
+- Model evaluation.
+- Streamlit application development.
