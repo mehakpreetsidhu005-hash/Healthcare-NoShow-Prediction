@@ -43,12 +43,30 @@ The dataset contains information about patients, appointment dates, medical cond
 - Analyzed Age using minimum, maximum, and mean.
 - Identified a negative age value for further investigation.
 
-### Upcoming Tasks
+### Day 3 – Data Cleaning and Exploratory Data Analysis (EDA)
 
-- Investigate invalid age values.
-- Complete data quality checks.
-- Exploratory Data Analysis (EDA).
-- Data preprocessing.
-- Machine Learning model development.
-- Model evaluation.
-- Streamlit application development.
+**Tasks Completed:**
+
+- Removed one invalid record where Age was -1.
+- Analyzed the age distribution of patients.
+- Created a histogram to visualize patient age distribution.
+- Visualized appointment attendance using a bar chart.
+- Calculated the percentage distribution of the target variable (`No-show`).
+
+**Key Findings:**
+
+- Total records after cleaning: 110,526
+- Total features: 14
+- Patients who attended appointments: 79.81%
+- Patients who missed appointments: 20.19%
+
+**Observation:**
+
+The target variable is imbalanced because approximately 80% of patients attended their appointments, while 20% missed them. This will be considered during model training and evaluation.
+
+**Next Steps:**
+
+- Continue exploratory data analysis.
+- Analyze categorical and numerical features.
+- Perform feature engineering.
+- Prepare data for machine learning models.
