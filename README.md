@@ -70,3 +70,25 @@ The target variable is imbalanced because approximately 80% of patients attended
 - Analyze categorical and numerical features.
 - Perform feature engineering.
 - Prepare data for machine learning models.
+- ### Day 4 – Feature Analysis and Feature Engineering
+
+**Tasks Completed:**
+- Compared gender with appointment attendance.
+- Created age groups and analyzed no-show rates.
+- Visualized no-show rates by age group.
+- Analyzed SMS reminders and scholarship status.
+- Explored neighbourhood-wise no-show rates.
+- Converted appointment dates into datetime format.
+- Created a new feature: `WaitingDays`.
+
+**Key Findings:**
+- The 18–35 age group had the highest no-show rate among the analyzed age groups.
+- Patients who received SMS reminders showed a higher no-show percentage in this dataset.
+- Average waiting time was approximately 10.18 days.
+- Median waiting time was 4 days.
+- Some negative waiting-day values require further investigation.
+
+**Next Steps:**
+- Investigate negative waiting days.
+- Complete data preprocessing.
+- Train and evaluate machine learning models.
